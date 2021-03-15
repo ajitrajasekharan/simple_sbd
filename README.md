@@ -1,5 +1,5 @@
 # simple_sbd
-Breaks down paragraph into sentences on period char taking into account not breaking on period in numeric sequences and abbreviations
+Breaks down paragraph into sentences on period char taking into account not breaking on period in numeric sequences and abbreviations. *Note this not infer a period where it is missing. BERT's MLM can be used to perform missing period detection.*
 
 # Pre-requisites 
 python 3.x
